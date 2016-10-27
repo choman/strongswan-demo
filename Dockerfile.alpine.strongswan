@@ -1,0 +1,8 @@
+FROM alpine:latest
+
+ENV EPEL_VERSION 7-8
+
+RUN apk update -y
+RUN apk add strongswan
+
+CMD [""]
